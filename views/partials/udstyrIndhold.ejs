@@ -1,0 +1,29 @@
+<div class="shalia">
+           
+      
+      <div class="typeCykel">
+            <% udstyrData.forEach(function(enUdstyr) { %>
+                <a  href="/kategori/<%=enUdstyr.type%>">
+                <p class="cykelp">
+                  <%= enUdstyr.type %>
+                </p>
+                <img class="img2" src="images/<%= enUdstyr.url %>" alt="<%= enUdstyr.id %>">
+            </a>
+                <% }) %>
+            </div>
+    
+        <div class="indhold3">
+                <% tilbud.forEach(function(element) { %>
+                <div class="flex-container">
+                        
+                    <div >  
+                        <p  id="navn"> <%= element.navn %> </p>
+                        <img src="/images/<%=element.img %>"> 
+                        <p  id="pris"> <%= element.førPris %></p>
+                        <p  id="pris1"> <%= element.nupris %></p>
+                    </div>
+                </div>    
+                
+                <% }); %>
+        </div>
+    </div>

@@ -1,0 +1,277 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+body {
+  flex-wrap: wrap;
+  padding: 20px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:  #e1e1e1;
+}
+
+
+
+.body2{
+  border-top: 2px solid #b1b1b1;
+  border-left: 2px solid #b1b1b1;
+  border-right: 2px solid #b1b1b1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+}
+header{
+   background-image: url("../images/logo.png");
+   background-repeat: no-repeat;
+   height: 200px;
+   background-size: cover;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+  }
+#input1{
+  float: right;
+  width: 200px;
+  height:25px; 
+  margin-top: 80px;
+  margin-right:30px;
+} 
+#input{
+  width:200px;
+  float: right;
+}
+#sub_div {
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  display: block;
+  float: right;
+  width: 60px;
+  height: 30px;
+  margin-top: 130px;
+  margin-left: 100px;
+  padding:0;
+
+}
+
+#avanceret{
+  color: white;
+  float: right;
+  margin-top: 145px;
+
+}
+.img6{
+  width: 150px;
+  height: auto;
+}
+
+a {
+  color: black;
+
+  }
+ h3{
+  color: #ff9e41;
+ } 
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {float: left;}
+
+nav{
+  display: flex;
+}
+nav a {
+  display:block;
+  flex-basis: 16.66%;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:solid 1px #828282;
+  background-color: #c7cbcc;
+}
+
+nav a:hover:not(.active) {background-color: #111;}
+ul li.right {float: right;}
+
+
+@media screen and (max-width: 600px){
+  ul li.right, 
+  ul li {float: none;}
+}
+
+#underNav{
+  height: 46px;
+  background-color: white;
+  display:flex; 
+  color: #ff9e41;
+}
+
+#p1{
+  margin-right: 20px;
+  margin-left: 25px;
+  flex-basis: 80%;
+  border-bottom: solid 2px #c7cbcc;
+ }
+#p2{
+  flex-basis: 20%;
+  margin-left:20px;
+  border-bottom: solid 2px #c7cbcc;
+ }
+
+.indhold3{
+   float: right;
+ }
+
+.img1{
+   width: 180px;
+   height: auto;
+ }
+
+ .img2{
+  width: 100px;
+  height: auto;
+}
+.img4{ 
+  float: right;
+  width: 180px;
+  height: auto;
+}
+ 
+ footer {
+   margin-bottom: 20px;
+   width: 100%;
+   height: 30px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   background-color: #c7cbcc;
+   color: #A4A4A4;
+   border-bottom: 2px solid #828282;
+   border-top: 2px solid #a5a6a8;
+   text-align: center;
+   overflow: hidden;
+  }
+  
+  #footerP {
+    margin-top:5px;
+  }
+  
+  .cykelKatagori .indhold3 .flex-container  div{
+    display: flex;
+    flex-direction: column;  
+    margin-top: 12px;
+    margin-right: 20px;
+  }
+  .indhold3 .flex-container  div img{
+    width: 60%;
+   
+  }
+  
+  .flex-container  div {
+    background-color: white;
+    border: solid 2px #c7cbcc;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    height: 170px;
+    margin-top: auto;
+  }
+  .cykelKatagori div {
+    border: solid 2px #c7cbcc;
+    width: 1050px;
+    height: auto;
+    margin-left:20px;
+    margin-top: 12px; 
+   }
+  p{
+    margin:0;
+  }
+  .shalia{
+    display: flex;
+    background-color: white;
+    
+  }
+  
+  .indhold1{
+    width: 450px;
+    padding: 20px;
+  }
+  .indhold2{
+    width: 570px;
+    border-right: solid 2px #c7cbcc;
+    margin-top:18px;
+    padding: 10px;
+  }
+  .indhold2 img {
+    width: 85%;
+    height: auto;
+    margin-top: -5px;
+    margin-left:80px;
+  }
+  .indhold3{
+    margin-left: 5px;
+    padding-top: 12px;
+    height: 500px;
+    margin-bottom: 55px;
+    
+  }
+
+.typeCykel{
+         width: 1080px;
+         height:auto;
+         display: flex;
+         flex-wrap: wrap;
+         align-content: center;
+         text-align: center;
+         justify-content: space-around;
+         padding: 70px;
+         border-right: solid 2px #c7cbcc;
+      }
+.cykelp{
+ text-align: center;
+ font-weight: bold;
+ margin-bottom: 25px;
+}      
+
+.typeCykel a{
+  flex-basis: 27%;
+}
+a{
+  text-decoration: none;
+}
+#pris{
+  text-decoration: line-through;
+
+}
+#pris1{
+  color:red;
+ padding: 2px;
+}
+#navn{
+  font-size: 16px;
+  font-weight: bold;
+ }
+}
+
+
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+    
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+    
+  }

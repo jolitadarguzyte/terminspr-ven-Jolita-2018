@@ -1,0 +1,18 @@
+[{
+    "navn":"Kildemose MTB",
+    "img":"cykler.jpg",
+    "førPris":"Før 8.999 kr.",
+    "nupris":"Nu kun 6.999 kr."
+},
+{
+    "navn":"MBK Damecykel",
+    "img":"damecykler.jpg",
+    "førPris":"Før 5.995 kr.",
+    "nupris":"Nu kun 4.995 kr."
+},
+{
+    "navn":"Mustang Racer",
+    "img":"mustang_race.jpg",
+    "førPris":"Før 11.995 kr.",
+    "nupris":"Nu kun 9.995 kr."
+}]

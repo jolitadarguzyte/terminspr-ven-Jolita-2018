@@ -1,0 +1,32 @@
+<div class="shalia">
+    <div class="indhold1">
+     <h3> <%= indhold[0].text %> </h3>
+          <%= indhold[0].text1 %>
+          <br>
+          <%= indhold[0].text2 %>
+          <br>
+          <%= indhold[0].text3 %>
+          <br>
+          <%= indhold[0].text4 %>
+    </div>
+
+    <div class="indhold2">
+     <img src="/images/<%=indhold2[0].img %>">
+    </div>
+
+    <div class="indhold3">
+            <% tilbud.forEach(function(element) { %>
+            <div class="flex-container">
+                    
+                <div >  
+                    <p  id="navn"> <%= element.navn %> </p>
+                    <img src="/images/<%=element.img %>"> 
+                    <p  id="pris"> <%= element.førPris %></p>
+                    <p  id="pris1"> <%= element.nupris %></p>
+                </div>
+            </div>    
+            
+            <% }); %>
+    </div>
+</div>
+
